@@ -272,7 +272,6 @@ body {
     color: var(--text-color);
     font-size: 35px;
     font-weight: 700;
-    text-transform: capitalize;
     margin-bottom: 25px;
 }
 
@@ -318,7 +317,6 @@ intro
 
 .intro-banner:after {
     content: "";
-    background-image: url(../images/slider-left-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -327,19 +325,6 @@ intro
     height: 625px;
     z-index: 1;
 }
-/*
-.intro-banner:before {
-  content: '';
-  background-image: url(../images/slider-right-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0;
-  top: 0px;
-  width: 1159px;
-  height: 797px;
-  z-index: 2;
-}
-*/
 
 .intro-banner img {
     max-width: 152px;
@@ -577,7 +562,7 @@ header
 
 .header-area .main-nav .nav li:last-child a,
 .background-header .main-nav .nav li:last-child a {
-    padding: 0px 20px !important;
+    padding: 0 20px !important;
     font-weight: 400;
 }
 
@@ -839,7 +824,7 @@ header
 }
 
 @media (max-width: 767px) {
-    .pre-header ul.info li:last-child {
+    .pre-header ul.info li a span {
         display: none;
     }
     .background-header .main-nav .nav {
@@ -857,7 +842,7 @@ header
         width: 100%;
     }
     .header-area {
-        background-color: var(--background-color);
+        background-color: var(--secondary-color);
         padding: 0px 15px;
         height: 100px;
         box-shadow: none;
@@ -1071,7 +1056,6 @@ Banner Style
 
 .main-banner:after {
     content: "";
-    background-image: url(../images/slider-left-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -1083,7 +1067,6 @@ Banner Style
 
 .main-banner:before {
     content: "";
-    background-image: url(../images/slider-right-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -1399,7 +1382,6 @@ Services Style
 
 .services:after {
     content: "";
-    background-image: url(../images/services-left-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -1411,7 +1393,6 @@ Services Style
 
 .services:before {
     content: "";
-    background-image: url(../images/services-right-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -1653,7 +1634,6 @@ Portfolio
 
 .our-portfolio:before {
     content: "";
-    background-image: url(../images/portfolio-right-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -1665,7 +1645,6 @@ Portfolio
 
 .our-portfolio:after {
     content: "";
-    background-image: url(../images/portfolio-left-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -1773,7 +1752,6 @@ Blog
 
 .blog:before {
     content: "";
-    background-image: url(../images/blog-left-dec.jpg);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
