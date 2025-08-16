@@ -429,6 +429,12 @@ header
     margin-right: 8px;
 }
 
+.pre-header ul.info li.app-button {
+    border: 1px solid var(--text-color) !important;
+    border-radius: 23px;
+    padding: 0px 20px !important;
+}
+
 .pre-header ul.social-media {
     text-align: right;
 }
@@ -675,11 +681,6 @@ header
     z-index: 1;
     transform: translateY(0%);
     transition-delay: 0s, 0s, 0.3s;
-}
-
-.header-area .main-nav .nav .app-button {
-    border: 1px solid var(--text-color) !important;
-    border-radius: 23px;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -937,7 +938,7 @@ header
     .header-area .main-nav .nav li.submenu:focus ul {
         height: 0px;
     }
-    .header-area .main-nav .nav .app-button {
+    .pre-header ul.info li.app-button {
         display: none !important;
     }
 }
