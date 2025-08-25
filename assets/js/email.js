@@ -18,7 +18,7 @@ form.addEventListener('submit', async (e) => {
 
     try {
         // Envia para você (template “admin”)
-        await emailjs.sendForm('outlook_personal', 'orbix_contact', form);
+        await emailjs.sendForm('orbix_gmail', 'orbix_contact', form);
 
         alert('Mensagem enviada com sucesso! 🎉');
         form.reset();
