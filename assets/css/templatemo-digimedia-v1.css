@@ -30,7 +30,7 @@ CSS Variables
 :root {
     --primary-color: #0043f7;
     --secondary-color: #002f5f;
-    --background-color: #061728;
+    --background-color: #02080e;
     --text-color: #e0e0e0;
 }
 
@@ -1476,7 +1476,7 @@ Services Style
 }
 
 .services .naccs .menu div.active {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
 }
 
 .services ul.nacc {
