@@ -1,0 +1,9 @@
+Accessibility
+
+Orbix is designed to support a wide range of learners by providing personalized learning experiences. While we are continuously improving our platform, full accessibility support is not yet available.
+
+We currently focus on clear interfaces, flexible learning formats (text, audio, video, and interactive content), and compatibility with major web browsers. However, some advanced accessibility features — such as complete screen-reader optimization and full keyboard navigation — are still in development.
+
+Accessibility is a priority in our product roadmap. We are actively working to expand compliance and ensure that every user can benefit from Orbix, regardless of their needs or learning conditions.
+
+If you have feedback or specific accessibility requirements, our team will be happy to collaborate and support improvement.

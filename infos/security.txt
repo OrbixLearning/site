@@ -1,0 +1,13 @@
+Security
+
+Orbix is hosted in a secure cloud environment (OCI) and all communication between client and server is protected with HTTPS/TLS encryption.
+
+Access to information is strictly controlled through role-based permissions (administrator, teacher, and student). Authentication supports email and password, Google login, and LMS integration via OAuth, ensuring safe and flexible access.
+
+Although institutions share the same database infrastructure, all data is logically isolated by institution ID. Every API request is validated by a dedicated security layer that guarantees only authorized members can access each institution’s content.
+
+All documents are stored in secure cloud buckets, and no files or data are ever shared between institutions. Orbix does not sell or distribute personal or institutional information to third parties.
+
+Security is an ongoing commitment. We maintain continuous monitoring through system and OCI logs, and frequently update our protections to ensure data remains secure.
+
+If you have any security questions or concerns, our team is always available to help.
